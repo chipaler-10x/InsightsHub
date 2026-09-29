@@ -8,7 +8,7 @@ A team dashboard for primary and secondary research, pulling data from external 
 
 - **Next.js (App Router) + TypeScript** — one repo for UI and simple API routes.
 - **Tailwind CSS** for styling.
-- **Deployed on Vercel** — gives teammates an automatic preview URL per PR.
+- **Hosting: TBD** — team decided against Vercel (2026-09-29); no replacement chosen yet. Don't assume any specific host until this is updated.
 - Data is pulled from external sources at runtime/build time (not hand-entered or stored locally) — likely via API routes acting as a thin proxy/aggregator.
 - If a data source turns out to need heavy processing (ETL, scraping, ML) rather than a simple API call, revisit: a separate Python service may fit better than cramming that into Next.js API routes.
 
