@@ -42,3 +42,7 @@ next-env.d.ts
 
 # Claude Code local (per-machine) permission settings — not shared
 .claude/settings.local.json
+
+# Real research data — internal/confidential, never commit (repo is public).
+# See README for how to regenerate this file locally.
+src/data/conjoint-level-summary.json
